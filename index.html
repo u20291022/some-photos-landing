@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="light-1" class="background-light"></div>
+  <div id="light-2" class="background-light"></div>
+  <div id="light-3" class="background-light"></div>
+  <div id="light-4" class="background-light"></div>
+
+  <header class="flex-container">
+    <span class="uppercase">photo</span>
+    
+    <div class="flex-container links-section">
+      <a href="#">sheet</a>
+      <a href="#">pricing</a>
+      <a href="#">contact</a>
+      <a href="#">buy cards</a>
+    </div>
+  </header>
+
+  <section class="flex-container centered">
+    <div class="flex-vert-container col-v-centered max-width-500px width-50">
+      <span>
+        <h1 class="header-text">beautiful</h1>
+        <h1 class="header-text">and aesthetic</h1>
+        <h1 class="header-text">photos</h1>
+      </span>
+      
+      <p class="info-text">The best choice bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla...</p>
+      
+      <div class="flex-container space-around">
+        <a href="#"><button class="highlighted-button">first button</button></a>
+        <a href="#"><button>more photos</button></a>
+      </div>
+    </div>
+
+    <div class="flex-container right-part v-centered width-50 max-width-500px">
+      <img class="photo" src="images/image-1.jpg" alt="big photo">
+    </div>
+  </section>
+
+  <div class="separator">some information</div>
+
+  <section class="buttons-section">
+    <a href="#"><button>social #1</button></a>
+    <a href="#"><button>social #2</button></a>
+    <a href="#"><button>social #3</button></a>
+    <a href="#"><button>social #4</button></a>
+    <a href="#"><button>social #5</button></a>
+  </section>
+
+  <section class="flex-container centered">
+    <div class="collage left-part width-50 max-width-500px">
+      <p>hello</p>
+
+      <div class="collage-photos">
+        <img class="photo" src="images/image-2.jpg" alt="first photo" />
+        <img class="photo" src="images/image-3.jpg" alt="second photo" />
+      </div>
+      
+      <p>Author Name</p>
+    </div>
+
+    <div class="flex-vert-container right-part width-50 max-width-500px">
+      <h2 class="header-text">photography on a different topic</h2>
+      <p class="info-text">You can offer bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla-bla...</p>
+
+      <div class="flex-container centered">
+        <a href="#"><button class="highlighted-button uppercase">order a photo shoot</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex-container centered">
+    <div class="flex-vert-container left-part width-50 max-width-500px">
+      <h2 class="header-text">more my works</h2>
+      <p class="info-text">Here you can see ... something</p>
+      
+      <div class="separator"></div>
+
+      <div class="flex-container">
+        <div class="flex-vert-container width-min-content">
+          <img class="profile-avatar" src="images/image-4.jpg" alt="avatar" />
+          <span class="profile-name">Some Human</span>
+        </div>
+
+        <div class="message-blob">
+          <p class="info-text">Hi! My name is ... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet finibus ipsum, sit amet suscipit risus!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-container relative v-centered right-part width-50 max-width-500px">
+      <button class="arrow-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24">
+          <path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+        </svg>
+      </button>
+      
+      <div class="photos-slider">
+        <img class="photo slide" src="images/slides/image-1.jpg" alt="first image" />
+        <img class="photo slide" src="images/slides/image-2.jpg" alt="second image" />
+        <img class="photo slide" src="images/slides/image-3.jpg" alt="third image" />
+        <img class="photo slide" src="images/slides/image-4.jpg" alt="fourth image" />
+        <img class="photo slide" src="images/slides/image-5.jpg" alt="fifth image" />
+        <img class="photo slide" src="images/slides/image-6.jpg" alt="sixth image" />
+        <img class="photo slide" src="images/slides/image-7.jpg" alt="seventh image" />
+      </div>
+      
+      <button class="arrow-right">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24">
+          <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <section class="flex-vert-container col-h-centered">
+    <h2 class="header-text">your feedback</h2>
+    <img class="photo margin-top-10px" src="images/slides/image-3.jpg" alt="cutie" />
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
