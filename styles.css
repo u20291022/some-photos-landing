@@ -233,8 +233,6 @@ a > button {
 
   width: 250px;
 
-  border: 3px solid white;
-
   transform: translate(-125px, -50%);
   transition: 0.5s;
 }
